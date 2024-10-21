@@ -1,0 +1,12 @@
+{
+  "name": "button",
+  "version": "0.1.0",
+  "description": "A highly customizable, accessible, and performant Button component that offers a flexible way to create interactive buttons that cater to various design needs while ensuring a consistent user experience. By allowing customization through dynamic attributes, it empowers developers to craft UI elements that are visually appealing and functional.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hamza Zain",
+  "license": "ISC"
+}
