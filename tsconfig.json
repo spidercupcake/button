@@ -1,0 +1,24 @@
+{
+  /* prettier-ignore */
+
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+
+    "target": "es5",                            //  Ensures compatibility with older browsers.
+    "lib": ["dom", "dom.iterable", "esnext"],   //  Includes necessary libraries.
+    "allowJs": true,                            //  Allows processing of JavaScript files.
+    "skipLibCheck": true,                       //  Skips type checks for libraries.
+    "esModuleInterop": true,                    //  Enables ES module interoperability.
+    "allowSyntheticDefaultImports": true,       //  Allows default imports.
+    "strict": true,                             //  Enables strict type-checking.
+    "forceConsistentCasingInFileNames": true,   //  Enforces consistent file name casing.
+    "noFallthroughCasesInSwitch": true,         //  Prevents fall-through cases in switch statements.
+    "module": "esnext",                         //  Uses ESNext module system.
+    "moduleResolution": "node",                 //  Uses Node.js module resolution.
+    "resolveJsonModule": true,                  //  Resolves JSON modules.
+    "isolatedModules": true,                    //  Isolates each module.
+    "noEmit": true,                             //  Prevents emitting JavaScript files.
+    "jsx": "react-jsx"                          //  Uses React JSX factory.
+  },
+  "include": ["src"]
+}
