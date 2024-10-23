@@ -2,17 +2,28 @@
   "name": "button",
   "version": "0.1.0",
   "description": "A highly customizable, accessible, and performant Button component that offers a flexible way to create interactive buttons that cater to various design needs while ensuring a consistent user experience. By allowing customization through dynamic attributes, it empowers developers to craft UI elements that are visually appealing and functional.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "rollup": "rollup -c --bundleConfigAsCjs"
   },
   "keywords": [],
   "author": "Hamza Zain",
   "license": "ISC",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.1",
     "@types/react": "^18.3.12",
     "react": "^18.3.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
     "tslib": "^2.8.0",
     "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "rollup": "^4.24.0"
   }
 }
